@@ -8,16 +8,16 @@ body {
     justify-content: center;
     align-items: center;
   }
-  .bg {
+  .ox {
     background-color: white;
     height: 130px;
     border-radius: 10px;
   }
-  .bg-1,
-  .bg-2 {
+  .box1,
+  .box2 {
     position: absolute;
   }
-  .bg-1 {
+  .box1 {
     width: 379px;
     height: 130px;
     opacity: 0.22;
@@ -25,7 +25,7 @@ body {
     right: 5rem;
     z-index: -1;
   }
-  .bg-2 {
+  .box2 {
     width: 416px;
     height: 130px;
     opacity: 0.71;
@@ -33,7 +33,7 @@ body {
     right: 4rem;
     z-index: -2;
   }
-  .bg-3 {
+  .box {
     position: relative;
     top: 1rem;
     width: 536px;
@@ -81,7 +81,7 @@ body {
   .time:nth-last-child(1)::after,.time:nth-last-child(2)::after,.dropdown:nth-last-child(1)::before{
     display: none;
   }
-  .bg-3 p {
+  .box p {
     z-index: 4;
     color: #3d087b;
     font-family: "Manrope";
@@ -299,7 +299,7 @@ body {
     }
   }
   @media (max-width:650px){
-    .bg-3>p{
+    .box>p{
       display: none;
     }
     .time{
@@ -308,15 +308,15 @@ body {
       padding: 1.25rem;
       font-size: 1.5rem;
     }
-    .bg-3{
+    .box{
       gap: 2rem;
       height: 10rem;
       justify-content: space-between;
     }
-    .bg-2{
+    .box2{
       top: 4rem;
     }
-    .bg-1{
+    .box1{
       top: 5rem;
     }
     .time::after{
